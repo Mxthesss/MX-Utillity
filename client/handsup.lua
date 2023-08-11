@@ -1,3 +1,9 @@
+if not mx.HandsUp then
+    return
+end
+
+if mx.HandsUp then
+
 local handsup = false
 
 local function HandsUpAnimation()

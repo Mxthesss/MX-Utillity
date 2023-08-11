@@ -14,7 +14,7 @@ CreateThread(function()
                         ClearPedTasks(ped)
                         if not notified then
                             notified = true
-                            SendNotification(Config.Locales["notify"])
+                            SendNotification(mx.Locales["notify"])
                         end
                     end
                 else
@@ -26,8 +26,8 @@ CreateThread(function()
     end
 end)
 
-if Config.WindowRoll then
-    RegisterCommand(Config.WindowRollCommand, function()
+if mx.WindowRoll then
+    RegisterCommand(mx.WindowRollCommand, function()
         local ped = PlayerPedId()
         if IsPedInAnyVehicle(ped, true) then
             local veh = GetVehiclePedIsIn(ped, false)

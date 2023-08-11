@@ -1,5 +1,5 @@
-name         'deadyen_winbreak'
-author       'deadyen.com - totsu ¥'
+name         'MX-Utillity'
+author       'Mxthess'
 version      '1.0'
 
 fx_version 'cerulean'
@@ -10,10 +10,10 @@ lua54 'yes'
 shared_script 'config.lua'
 
 client_scripts {
-    'client/main.lua',
+    'client/window.lua',
 }
 
 escrow_ignore {
     'config.lua',
-    'client/main.lua',
+    'client/window.lua',
 }

@@ -3,6 +3,9 @@ mx = {}
 -- Functions Config
 
 mx.Window = true -- This enabled the function true/false
+mx.Finger = true
+mx.HandsUp = true
+mx.Holster = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 

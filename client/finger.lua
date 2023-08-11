@@ -1,3 +1,9 @@
+if not mx.Finger then
+    return
+end
+
+if mx.Finger then
+
 local animDict = 'anim@mp_point'
 
 local function LoadAnimDict(anim)

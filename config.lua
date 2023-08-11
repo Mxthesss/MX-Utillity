@@ -4,6 +4,19 @@ mx = {}
 
 mx.Window = true -- This enabled the function true/false
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+-- HandsUp
+
+mx.HandsUpCommand = 'handsup'
+mx.HandUpKeyBind = 'X'
+
+-- Finger Pointing
+
+mx.FingePoinCommand = 'finger'
+mx.FingerPoinKeyBind = 'b'
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Window roll
 
@@ -30,3 +43,5 @@ SendNotification = function(text)
         	EndTextCommandThefeedPostTicker(true, true)
 	end
 end
+
+------------------------------------------------------------------------------------------------------------------------------------------

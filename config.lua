@@ -1,5 +1,12 @@
 mx = {}
 
+-- Functions Config
+
+mx.Window = true -- This enabled the function true/false
+
+
+-- Window roll
+
 mx.WindowRoll = true -- disable if you already have a script allowing the players to roll down their windows.
 mx.WindowRollCommand = "rollwindow"
 

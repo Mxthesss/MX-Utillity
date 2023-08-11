@@ -6,6 +6,7 @@ mx.Window = true -- This enabled the function true/false
 mx.Finger = true
 mx.HandsUp = true
 mx.Holster = true
+mx.Optimize = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 

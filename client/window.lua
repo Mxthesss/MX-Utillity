@@ -26,6 +26,10 @@ CreateThread(function()
     end
 end)
 
+if not mx.Window then
+    return
+end
+
 if mx.WindowRoll then
     RegisterCommand(mx.WindowRollCommand, function()
         local ped = PlayerPedId()

@@ -17,13 +17,7 @@ end)
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
-        if IsControlJustPressed(2, 82) and not IsPedInAnyVehicle(GetPlayerPed(-1), false) then
-            ragdoll = not ragdoll
-            if not ragdoll then
-                shownHelp = false
-            end
-        end
-        if Config.stunShouldRagdoll and IsPedBeingStunned(GetPlayerPed(-1)) then
+        if mx.stunShouldRagdoll and IsPedBeingStunned(GetPlayerPed(-1)) then
             ragdoll = true
         end
 
@@ -31,10 +25,6 @@ Citizen.CreateThread(function()
         if IsPlayerDead(PlayerId()) and ragdoll == true then
             ragdoll = false
             shownHelp = false
-        end
-        if ragdoll == true and not shownHelp then
-            ESX.ShowHelpNotification("Press ~INPUT_VEH_PREV_RADIO~ to stand up")
-            shownHelp = true
         end
     end
 end)

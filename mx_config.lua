@@ -11,6 +11,10 @@ mx.Changelog = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+-- ChangeLogs
+
+mx.ChangeLogsCommand = 'changelogs'
+
 -- HandsUp
 
 mx.HandsUpCommand = 'handsup'
@@ -20,8 +24,6 @@ mx.HandUpKeyBind = 'X'
 
 mx.FingePoinCommand = 'finger'
 mx.FingerPoinKeyBind = 'b'
-
-------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Window roll
 

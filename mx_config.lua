@@ -18,7 +18,7 @@ mx.ChangeLogsCommand = 'changelogs'
 -- HandsUp
 
 mx.HandsUpCommand = 'handsup'
-mx.HandUpKeyBind = 'X'
+mx.HandUpKeyBind = 'x'
 
 -- Finger Pointing
 

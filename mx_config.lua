@@ -32,7 +32,7 @@ mx.CarryCommand = "carry"
 
 -- Fix Traffic
 
-
+To change something in this you need to go client/fixtraffic.lua
 
 
 -- ChangeLogs

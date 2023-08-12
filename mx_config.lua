@@ -10,6 +10,7 @@ mx.Optimize = true
 mx.Changelog = true
 mx.NoWeaponReward = true
 mx.NoMoreWeaponsOnNPC = true
+mx.NoMoreCopNPC = true
 mx.NoMoreScope = true
 mx.NoLicense = true
 mx.NoDrivingCopCar = false

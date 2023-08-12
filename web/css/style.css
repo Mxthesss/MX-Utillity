@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-/* CHANGES LIST + SCROLL BAR */
+
 
 .changelogs-container::-webkit-scrollbar, .wrapsecondary::-webkit-scrollbar {
   width: 5px;
@@ -31,15 +31,15 @@
 
 .changelogs-container::-webkit-scrollbar-track, .wrapsecondary::-webkit-scrollbar-track {
   background: #1114199f;
-  /* display: none; */
+
 }
 
 .changelogs-container::-webkit-scrollbar-thumb, .wrapsecondary::-webkit-scrollbar-thumb {
   background-color: #ff000025;
-  /* display: none; */
+
 }
 
-/* END */
+
 
 .box {
   width: 100px;
@@ -60,21 +60,19 @@
   margin-right: auto;
 }
 
-/* COLORS OF BOXES */
+
 
 .green-box {
   background-color: green;
-}
+
 
 .orange-box {
   background-color: orange;
-}
+
 
 .red-box {
   background-color: red;
-}
 
-/* END OF COLORS OF BOXES */
 
 .header {
   color: white;

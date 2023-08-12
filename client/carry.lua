@@ -64,7 +64,7 @@ local function ensureAnimDict(animDict)
     return animDict
 end
 
-RegisterCommand("carry",function(source, args)
+RegisterCommand(mx.CarryCommand,function(source, args)
 	if not carry.InProgress then
 		local closestPlayer = GetClosestPlayer(3)
 		if closestPlayer then

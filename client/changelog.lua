@@ -4,7 +4,7 @@ end
 
 if mx.Changelog then
 
-RegisterCommand('changelogs', function()
+RegisterCommand(mx.ChangeLogsCommand, function()
   SetNuiFocus(true, true)
   SendNUIMessage({
     action = "changelogs",

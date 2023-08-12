@@ -10,12 +10,7 @@ lua54 'yes'
 shared_script 'mx_config.lua'
 
 client_scripts {
-    'client/window.lua',
-    'client/finger.lua',
-    'client/handsup.lua',
-    'client/holster.lua',
-    'client/optimize.lua',
-    'client/changelog.lua',
+    'client/*.lua',
 }
 
 ui_page 'web/index.html'

@@ -7,7 +7,7 @@ use_experimental_fxv2_oal 'yes'
 game 'gta5'
 lua54 'yes'
 
-shared_script 'config.lua'
+shared_script 'mx_config.lua'
 
 client_scripts {
     'client/window.lua',
@@ -15,13 +15,16 @@ client_scripts {
     'client/handsup.lua',
     'client/holster.lua',
     'client/optimize.lua',
+    'client/changelog.lua',
+}
+
+ui_page 'web/index.html'
+files {
+	'web/*',
+	'web/js/*',
+	'web/css/*',
 }
 
 escrow_ignore {
     'mx_config.lua',
-    'client/window.lua',
-    'client/finger.lua',
-    'client/handsup.lua',
-    'client/holster.lua',
-    'client/optimize.lua',
 }

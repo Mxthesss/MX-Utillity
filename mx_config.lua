@@ -8,8 +8,19 @@ mx.HandsUp = true
 mx.Holster = true
 mx.Optimize = true
 mx.Changelog = true
+mx.NoWeaponReward = true
+mx.NoMoreWeaponsOnNPC = true
+mx.NoMoreScope = true
+mx.NoLicense = true
+mx.NoDrivingCopCar = false
+mx.FixTraffic = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Fix Traffic
+
+
+
 
 -- ChangeLogs
 

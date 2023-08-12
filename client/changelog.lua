@@ -1,4 +1,8 @@
--- == CHANGELOGS == --
+if not mx.Changelog then
+    return
+end
+
+if mx.Changelog then
 
 RegisterCommand('changelogs', function()
   SetNuiFocus(true, true)

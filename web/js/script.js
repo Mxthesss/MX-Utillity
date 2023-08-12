@@ -1,7 +1,7 @@
 $(document).ready(function (){
   document.onkeyup = function(data) {
     if (data.which == 27) {
-      $.post('http://crmbs-changelogs/Close', JSON.stringify({}));
+      $.post('http://mx-changelogs/Close', JSON.stringify({}));
       $('.changelogs-container').fadeOut(200)
     }
   }, window.addEventListener('message', function (event) {

@@ -31,5 +31,5 @@ RegisterCommand(mx.FingePoinCommand, function()
     RemoveAnimDict(animDict)
 end)
 
-RegisterKeyMapping('finger', 'Finger Pointing', 'keyboard', mx.FingerPoinKeyBind)
+RegisterKeyMapping(mx.FingePoinCommand, 'Finger Pointing', 'keyboard', mx.FingerPoinKeyBind)
 

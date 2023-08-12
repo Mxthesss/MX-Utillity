@@ -14,8 +14,19 @@ mx.NoMoreScope = true
 mx.NoLicense = true
 mx.NoDrivingCopCar = false
 mx.FixTraffic = true
+mx.DisableCombatsByR = true
+mx.Carry = true
+mx.RagDoll = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Rag Doll
+
+mx.RagDollCommand = "rag"
+
+-- Carry
+
+mx.CarryCommand = "carry"
 
 -- Fix Traffic
 

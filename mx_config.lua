@@ -23,6 +23,7 @@ mx.RagDoll = true
 -- Rag Doll
 
 mx.RagDollCommand = "rag"
+mx.stunShouldRagdoll = true
 
 -- Carry
 

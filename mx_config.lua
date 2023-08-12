@@ -18,8 +18,14 @@ mx.FixTraffic = true
 mx.DisableCombatsByR = true
 mx.Carry = true
 mx.RagDoll = true
+mx.SpeedLock = true
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Speed Lock
+
+mx.SpeedLockKeyBind = 'k'
+mx.SpeedLockCommand = 'speedlock'
 
 -- Rag Doll
 

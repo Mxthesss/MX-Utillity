@@ -37,5 +37,5 @@ RegisterCommand(mx.HandsUpCommand, function ()
     end    
 end, false)
 
-RegisterKeyMapping('handsup', 'Hands Up', 'keyboard', mx.HandUpKeyBind)
+RegisterKeyMapping(mx.HandsUpCommand, 'Hands Up', 'keyboard', mx.HandUpKeyBind)
 
